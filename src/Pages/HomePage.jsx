@@ -32,20 +32,24 @@ const HomePage = () => {
               like ReactJS, NodeJS, ExpressJS, Bootstrap and Sass; with
               knowledge in databases like MongoDB, Firebase, MySQL Workbench
             </p>
+            <span className="text-white-50">Repositories: </span>
             <a
               href="https://github.com/ederramosh"
               target="_blank"
               rel="noreferrer"
+              className="link-light"
             >
               github.com/ederramosh
             </a>
             <br />
+            <span className="text-white-50">Linkedin: </span>
             <a
               href="https://www.linkedin.com/in/eder-ramosh/"
               target="_blank"
               rel="noreferrer"
+              className="link-light"
             >
-              linkedin.com/in/eder-ramosh/
+               linkedin.com/in/eder-ramosh/
             </a>
           </div>
         </section>
