@@ -7,6 +7,18 @@ import project02 from "./assets/project-02.JPG";
 import project03 from "./assets/project-03.JPG";
 import project04 from "./assets/project-04.JPG";
 
+import bootstrap from "./assets/bootstrap.png";
+import css from "./assets/css.png";
+import expressjs from "./assets/expressjs.png";
+import github from "./assets/github.png";
+import html from "./assets/html.png";
+import javascript from "./assets/javascript.png";
+import mongodb from "./assets/mongodb.png";
+import nodejs from "./assets/nodejs.png";
+import postman from "./assets/postman.png";
+import reactjs from "./assets/reactjs.png";
+import sql from "./assets/sql.png";
+
 const HomePage = () => {
   return (
     <div className="container">
@@ -268,10 +280,50 @@ const HomePage = () => {
           </div>
         </section>
       </div>
-      <div className="row section-profile">
+        <h3 className="text-light text-center mb-3">Technologies</h3>
+      <div className="row section-tech px-3 py-3">
         <section className="col">
-        <h3>Technologies</h3>
+        <article className="row my-2">
+            <div className="col-3">
+                <img src={reactjs} alt="React JS" className="img-fluid tech-photo"/>
+            </div>
+            <div className="col-3">
+                <img src={nodejs} alt="Node JS" className="img-fluid tech-photo"/>
+            </div>
+            <div className="col-3">
+                <img src={expressjs} alt="Express JS" className="img-fluid tech-photo"/>
+            </div>
+            <div className="col-3">
+                <img src={javascript} alt="Javascript" className="img-fluid tech-photo"/>
+            </div>
+        </article>
+        <article className="row my-2">
+            <div className="col-4">
+                <img src={html} alt="HTML" className="img-fluid tech-photo"/>
+            </div>
+            <div className="col-4">
+                <img src={css} alt="CSS" className="img-fluid tech-photo"/>
+            </div>
+            <div className="col-4">
+                <img src={bootstrap} alt="Bootstrap" className="img-fluid tech-photo"/>
+            </div>
+        </article>
+        <article className="row my-2">
+            <div className="col-3">
+                <img src={mongodb} alt="MongoDB" className="img-fluid tech-photo"/>
+            </div>
+            <div className="col-3">
+                <img src={sql} alt="SQL" className="img-fluid tech-photo"/>
+            </div>
+            <div className="col-3">
+                <img src={github} alt="Github" className="img-fluid tech-photo"/>
+            </div>
+            <div className="col-3">
+                <img src={postman} alt="Postman" className="img-fluid tech-photo"/>
+            </div>
+        </article>
         </section>
+        
       </div>
     </div>
   );
