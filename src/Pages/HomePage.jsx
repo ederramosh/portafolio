@@ -27,8 +27,26 @@ const HomePage = () => {
           <div className="text-center">
             <p className="fs-1 text-light">Eder Ramos</p>
             <p className="fs-3 text-white-50">ReactJS - Full Stack Developer</p>
-            <p>Link de Linkdendi</p>
-            <p>Link de github</p>
+            <p className="text-white-50">
+              Hi there! I am a Full Stack Developer, focused in technologies
+              like ReactJS, NodeJS, ExpressJS, Bootstrap and Sass; with
+              knowledge in databases like MongoDB, Firebase, MySQL Workbench
+            </p>
+            <a
+              href="https://github.com/ederramosh"
+              target="_blank"
+              rel="noreferrer"
+            >
+              github.com/ederramosh
+            </a>
+            <br />
+            <a
+              href="https://www.linkedin.com/in/eder-ramosh/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              linkedin.com/in/eder-ramosh/
+            </a>
           </div>
         </section>
         <section className="section-profile-right col-md-6">
@@ -262,7 +280,12 @@ const HomePage = () => {
                     <div className="col-6">
                       <p className="fs-3">Description</p>
                       <p>
-                        The backend and APIs was created with NodeJS and ExpressJS, the Database used was MongoDB and its pattern desing was Model, Controller and Router. In the other side, the frontend was created with ReactJS and Bootstrap, the application has its login system and the payment was implemented with Paypal (Sandbox Version).
+                        The backend and APIs was created with NodeJS and
+                        ExpressJS, the Database used was MongoDB and its pattern
+                        desing was Model, Controller and Router. In the other
+                        side, the frontend was created with ReactJS and
+                        Bootstrap, the application has its login system and the
+                        payment was implemented with Paypal (Sandbox Version).
                       </p>
                       <a
                         href="https://visionary-basbousa-abd7b2.netlify.app/"
@@ -276,55 +299,87 @@ const HomePage = () => {
                 </div>
               </div>
             </div>
-
           </div>
         </section>
       </div>
-        <h3 className="text-light text-center mb-3">Technologies</h3>
-      <div className="row section-tech px-3 py-3">
+      <h3 className="text-light text-center mb-3">Technologies</h3>
+      <div className="row section-tech px-3 py-3 mb-5">
         <section className="col">
-        <article className="row my-2">
+          <article className="row my-2">
             <div className="col-3">
-                <img src={reactjs} alt="React JS" className="img-fluid tech-photo"/>
+              <img
+                src={reactjs}
+                alt="React JS"
+                className="img-fluid tech-photo"
+              />
             </div>
             <div className="col-3">
-                <img src={nodejs} alt="Node JS" className="img-fluid tech-photo"/>
+              <img
+                src={nodejs}
+                alt="Node JS"
+                className="img-fluid tech-photo"
+              />
             </div>
             <div className="col-3">
-                <img src={expressjs} alt="Express JS" className="img-fluid tech-photo"/>
+              <img
+                src={expressjs}
+                alt="Express JS"
+                className="img-fluid tech-photo"
+              />
             </div>
             <div className="col-3">
-                <img src={javascript} alt="Javascript" className="img-fluid tech-photo"/>
+              <img
+                src={javascript}
+                alt="Javascript"
+                className="img-fluid tech-photo"
+              />
             </div>
-        </article>
-        <article className="row my-2">
+          </article>
+          <article className="row my-2">
             <div className="col-4">
-                <img src={html} alt="HTML" className="img-fluid tech-photo"/>
+              <img src={html} alt="HTML" className="img-fluid tech-photo" />
             </div>
             <div className="col-4">
-                <img src={css} alt="CSS" className="img-fluid tech-photo"/>
+              <img src={css} alt="CSS" className="img-fluid tech-photo" />
             </div>
             <div className="col-4">
-                <img src={bootstrap} alt="Bootstrap" className="img-fluid tech-photo"/>
+              <img
+                src={bootstrap}
+                alt="Bootstrap"
+                className="img-fluid tech-photo"
+              />
             </div>
-        </article>
-        <article className="row my-2">
+          </article>
+          <article className="row my-2">
             <div className="col-3">
-                <img src={mongodb} alt="MongoDB" className="img-fluid tech-photo"/>
+              <img
+                src={mongodb}
+                alt="MongoDB"
+                className="img-fluid tech-photo"
+              />
             </div>
             <div className="col-3">
-                <img src={sql} alt="SQL" className="img-fluid tech-photo"/>
+              <img src={sql} alt="SQL" className="img-fluid tech-photo" />
             </div>
             <div className="col-3">
-                <img src={github} alt="Github" className="img-fluid tech-photo"/>
+              <img src={github} alt="Github" className="img-fluid tech-photo" />
             </div>
             <div className="col-3">
-                <img src={postman} alt="Postman" className="img-fluid tech-photo"/>
+              <img
+                src={postman}
+                alt="Postman"
+                className="img-fluid tech-photo"
+              />
             </div>
-        </article>
+          </article>
         </section>
-        
       </div>
+      <footer>
+        <hr className="text-white-50" />
+        <p className="text-center fs-5 text-white-50 pt-3 pb-5">
+          Powered by Eder Ramos
+        </p>
+      </footer>
     </div>
   );
 };
