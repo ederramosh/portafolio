@@ -6,6 +6,7 @@ import project01 from "./assets/project-01.JPG";
 import project02 from "./assets/project-02.JPG";
 import project03 from "./assets/project-03.JPG";
 import project04 from "./assets/project-04.JPG";
+import project05 from "./assets/project-05.JPG";
 
 import bootstrap from "./assets/bootstrap.png";
 import css from "./assets/css.png";
@@ -81,7 +82,7 @@ const HomePage = () => {
                 data-bs-parent="#accordionFlushExample"
               >
                 <div className="accordion-body">
-                  <div className="row">
+                  <div className="row px-2">
                     <div className="col-6">
                       <img
                         src={project01}
@@ -91,7 +92,7 @@ const HomePage = () => {
                     </div>
                     <div className="col-6">
                       <p className="fs-3">Description</p>
-                      <p>
+                      <p className="text-description">
                         Landing project based with semantic of HTML5, CSS3 and
                         Responsive Design
                       </p>
@@ -127,7 +128,7 @@ const HomePage = () => {
                 data-bs-parent="#accordionFlushExample"
               >
                 <div className="accordion-body">
-                  <div className="row">
+                  <div className="row px-2">
                     <div className="col-6">
                       <img
                         src={project02}
@@ -137,7 +138,7 @@ const HomePage = () => {
                     </div>
                     <div className="col-6">
                       <p className="fs-3">Description</p>
-                      <p>
+                      <p className="text-description">
                         CRUD Application created with HTML5, CSS3 and
                         Javascript, the storage was implemented with
                         localStorage and the responsive design was implemented
@@ -175,7 +176,7 @@ const HomePage = () => {
                 data-bs-parent="#accordionFlushExample"
               >
                 <div className="accordion-body">
-                  <div className="row">
+                  <div className="row px-2">
                     <div className="col-6">
                       <img
                         src={project03}
@@ -185,7 +186,7 @@ const HomePage = () => {
                     </div>
                     <div className="col-6">
                       <p className="fs-3">Description</p>
-                      <p>
+                      <p className="text-description">
                         Dashboard API created with HTML5, Bootstrap 5.2
                         framework and Javascript, it was created consuming two
                         API with Axios and deploy the information with ChartJS
@@ -223,7 +224,7 @@ const HomePage = () => {
                 data-bs-parent="#accordionFlushExample"
               >
                 <div className="accordion-body">
-                  <div className="row">
+                  <div className="row px-2">
                     <div className="col-6">
                       <img
                         src={project04}
@@ -233,7 +234,7 @@ const HomePage = () => {
                     </div>
                     <div className="col-6">
                       <p className="fs-3">Description</p>
-                      <p>
+                      <p className="text-description">
                         Restaurant Page was created with React JS, NodeJS and
                         Firebase, the webpage consumes the information stored in
                         the Firebase like Menu information, Images and the
@@ -273,17 +274,17 @@ const HomePage = () => {
                 data-bs-parent="#accordionFlushExample"
               >
                 <div className="accordion-body">
-                  <div className="row">
+                  <div className="row mx-2">
                     <div className="col-6">
                       <img
-                        src={project04}
+                        src={project05}
                         alt="Dashboard API"
                         className="photo-project img-fluid"
                       />
                     </div>
                     <div className="col-6">
                       <p className="fs-3">Description</p>
-                      <p>
+                      <p className="text-description">
                         The backend and APIs was created with NodeJS and
                         ExpressJS, the Database used was MongoDB and its pattern
                         desing was Model, Controller and Router. In the other
@@ -292,11 +293,11 @@ const HomePage = () => {
                         payment was implemented with Paypal (Sandbox Version).
                       </p>
                       <a
-                        href="https://visionary-basbousa-abd7b2.netlify.app/"
+                        href="https://eloquent-piroshki-61584b.netlify.app/"
                         target="_blank"
                         rel="noreferrer"
                       >
-                        Go to Restaurant Page
+                        Go to E-Commerce App
                       </a>
                     </div>
                   </div>

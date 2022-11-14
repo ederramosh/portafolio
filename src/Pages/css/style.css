@@ -28,7 +28,7 @@ body {
 }
 
 .photo {
-    width: 25rem;
+    width: 20rem;
     clip-path: circle(50.0% at 50% 50%);
     border-color: rgba(99, 11, 0);
 }
@@ -45,7 +45,7 @@ body {
 }
 
 .photo-project {
-    width: 30rem;
+    width: 25rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,4 +58,9 @@ accordion-button {
 
 .tech-photo {
     width: 10rem;
+}
+
+.text-description {
+    font-size: 1.10rem;
+    text-align: justify;
 }
